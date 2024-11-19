@@ -12,6 +12,8 @@ export default function Header() {
           // height={100}
           sizes="10vw"
           alt="Mobile phone with posts feed on it"
+          // always will be visible; priority disables lazy load and loads the image first
+          priority
         />
       </Link>
       <nav>
